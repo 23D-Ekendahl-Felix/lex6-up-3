@@ -1,0 +1,39 @@
+body{
+    background-image: url(img/back\ grund.jpg);
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+    grid-template-rows: 15vh 25vh 45vh 15vh;
+    gap: 10px;
+    grid-template-areas: 
+    "A B C"
+    "D E F"
+    "G H I"
+    "J K L" ;
+}
+
+imgdiv1{
+    grid-area: A;
+    text-align: center;
+}
+
+imgdiv2{
+    grid-area: C;
+    text-align: center;
+}
+
+header{
+    grid-area: B;
+    text-align: center;
+    padding-top: 10px;
+    background-color: gray;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+main{
+    grid-area: E;
+    background-color: azure;
+    border: 5px solid red;
+    border-radius: 5px;
+    text-align: center;
+    
+}
